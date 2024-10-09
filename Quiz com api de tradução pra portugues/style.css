@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(59, 185, 101);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 90%; /* Botões mais largos para garantir que o texto caiba */
+    max-width: 400px;
+    word-wrap: break-word; /* O texto quebra para não sair do botão */
+}
+
+#reload, #restart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reload:hover, #restart:hover {
+    background-color: #0056b3;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+#statusAnswer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+}

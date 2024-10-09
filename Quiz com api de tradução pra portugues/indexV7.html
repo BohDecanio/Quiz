@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Interativa Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pergunta:</h1>
+        
+        <h2 id="question">Carregando perguntas...</h2>
+
+        <div id="options-container">
+            <button type="button" class="alternative btn btn-primary" id="option0" value="0"></button>
+            <button type="button" class="alternative btn btn-primary" id="option1" value="1"></button>
+            <button type="button" class="alternative btn btn-primary" id="option2" value="2"></button>
+            <button type="button" class="alternative btn btn-primary" id="option3" value="3"></button>
+        </div>
+
+        <h3 id="statusAnswer"></h3>
+        <input type="button" id="reload" class="btn btn-secondary" value="Próxima Pergunta" style="display:none;">
+        <input type="button" id="restart" class="btn btn-danger" value="Reiniciar" style="display:none;"> 
+
+        <div id="score">
+            <p>Acertos: <span id="correctCount">0</span></p>
+            <p>Erros: <span id="wrongCount">0</span></p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resultModalLabel">Resultado Final</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Acertos: <span id="modalCorrectCount"></span></p>
+                    <p>Erros: <span id="modalWrongCount"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="closeModal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+Prova Funções Agregadoras Arrays (2 tentativas)
+1
+[JS-A11] Você foi contratado por uma escola para desenvolver uma avaliação interativa online para os alunos. A avaliação consiste em um quiz de personagens históricos e informações gerais. O sistema deve exibir perguntas aleatórias e permitir que os alunos escolham uma resposta entre as opções fornecidas. O sistema deve também fornecer feedback imediato sobre a resposta do aluno e permitir que eles avancem para a próxima pergunta. Ao final da avaliação, os alunos devem ser capazes de recarregar o quiz para tentar novamente.
+
+
+Código: https://github.com/InfinitySchool/tests/blob/main/%5BJS-A11%5D
+
+
+Implemente o código HTML e JavaScript para criar o quiz interativo conforme especificado abaixo:
+
+1-Utilize o código HTML e JavaScript fornecido para criar o quiz.
+
+2-O quiz deve conter quatro perguntas diferentes e suas respectivas opções.
+
+3-As perguntas devem ser exibidas aleatoriamente a cada tentativa.
+
+4-O aluno deve ser capaz de selecionar uma resposta clicando nos botões.
+
+5-Após escolher uma resposta, o sistema deve fornecer feedback imediato se a resposta está correta ou incorreta.
+
+6-O sistema deve exibir a mensagem "Acertou!!!" ou uma mensagem indicando a resposta correta.
+
+7-Um botão "Reload" deve ser exibido após o aluno responder a pergunta, permitindo que eles avancem para a próxima pergunta.
+
+8-O botão "Reload" deve recarregar a página, exibindo uma nova pergunta aleatória.
+
+9-Siga as estruturas de dados fornecidas para perguntas, opções e respostas corretas.
+
+10-Estilize a interface do quiz usando CSS se desejar, mas o foco principal é a funcionalidade.
+
+A resposta deve ser enviada em uma das seguintes formas:
+
+Arquivo Zipado
+Link do GitHub (Repositório Público)
+Link do Drive (Acesso para qualquer pessoa com o link)
+
+******************************************
+avaliação interetiva para alunos.
+quiz de personagens historicos e informações gerais.
+
+apresentar perguntas randomicas (buscar API)
+aluno deve escolher 1 resposta dentre algumas apresentadas (validação de resultado)
+sistema dará um feedback sobre a resposta do aluno. identificando se acertou (retornando texto: "ACERTOU!!!") , mas se errar, deve ter texto: "Você errou. A resposta certa é: "identificar a resposta certa.
+
+depois de acertarem, o sistema irá avançar para a proxima pergunta.
+**usar codigo do enunciado**
+HTML e JavaScript
+serão 4 perguntas cada teste, mas randomicas, não deve repetir.
+resposta do aluno será em botão para confirmar a sua resposta.
+deve ter um botão reload, para apresentar a proxima pergunta. Mas este botão só deve ficar ativo/válido, após o click que validará a resposta da pergunta.
+as respostas certa e erradas devem ser contabilizadas para informar no final do teste quantas foram certas e quantas foram erradas.
